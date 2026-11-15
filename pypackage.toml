@@ -1,0 +1,8 @@
+# Copie du contenu de pyproject.toml, demandée sous le nom pypackage.toml dans l'énoncé.
+# Le système de construction Python utilise exclusivement pyproject.toml.
+[build-system]
+requires = ["setuptools>=64", "wheel", "pybind11>=2.10"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
