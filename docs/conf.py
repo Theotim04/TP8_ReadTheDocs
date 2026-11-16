@@ -8,3 +8,4 @@ extensions = ["myst_parser", "sphinx.ext.autodoc", "sphinx.ext.napoleon"]
 html_theme = "sphinx_rtd_theme"
 html_title = "TP8 Médiane cumulative"
 exclude_patterns = ["_build"]
+copyright = "2026, Theotim Dumetz"
